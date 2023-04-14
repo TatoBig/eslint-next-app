@@ -5,7 +5,10 @@ import styles from '@/styles/Home.module.css';
 
 const inter = Inter({ subsets: ['latin'] });
 
+const message = 'hello world';
+
 export default function Home() {
+  console.log(message);
   return (
     <>
       <Head>
